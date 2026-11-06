@@ -1,3 +1,5 @@
+<p align="center"><img src="docs/icone.png" width="160" alt="équipe-dev"></p>
+
 # équipe-dev : une équipe d'agents pour Claude Code
 
 Tu décris ce que tu veux construire. Claude devient **manager** : il pose quelques questions, découpe le travail, puis le confie à des agents spécialisés.
@@ -27,7 +29,9 @@ Dans Claude Code :
 
 Ensuite, demande simplement « lance l'équipe pour ajouter … » ou tape `/equipe-dev`.
 
-À voir en direct avec l'extension VS Code [Agent-Verse](https://github.com/YanisseIsmaili/agent-verse).
+À voir en direct avec l'extension VS Code [Agent-Verse](https://github.com/YanisseIsmaili/agent-verse) :
+
+![L'équipe au travail dans Agent-Verse](docs/capture.png)
 
 ## Licence
 
