@@ -1,0 +1,5 @@
+{
+  "name": "equipe-dev",
+  "owner": { "name": "Yanisse Ismaili" },
+  "plugins": [ { "name": "equipe-dev", "source": "./", "description": "Équipe d'agents Claude Code : manager, dev, sécurité, bugs, README, Git/CI." } ]
+}

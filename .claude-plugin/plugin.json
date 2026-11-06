@@ -1,0 +1,9 @@
+{
+  "name": "equipe-dev",
+  "description": "Une équipe d'agents Claude Code : un manager qui pose les questions et délègue à un développeur, un expert cybersécurité, un chasseur de bugs, un rédacteur README et un agent Git/CI. Pensé pour consommer peu de tokens.",
+  "version": "1.0.0",
+  "author": { "name": "Yanisse Ismaili", "url": "https://github.com/YanisseIsmaili" },
+  "homepage": "https://github.com/YanisseIsmaili/equipe-dev",
+  "license": "MIT",
+  "keywords": ["agents", "equipe", "securite", "ci", "french"]
+}
