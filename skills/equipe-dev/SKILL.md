@@ -1,6 +1,6 @@
 ---
 name: equipe-dev
-description: Fait travailler une équipe d'agents spécialisés pour construire du logiciel de façon sûre et documentée. Claude joue le manager : il comprend la demande, pose les questions nécessaires, découpe le travail, puis délègue à un agent développeur, un agent cybersécurité (cherche toutes les failles possibles), un agent chasseur de bugs et un agent rédacteur de README. Utilise ce skill dès que l'utilisateur veut créer, développer, ajouter, refaire ou sécuriser une fonctionnalité, une application, un site, une API ou un script, ou dit des choses comme « lance l'équipe », « fais bosser les agents », « construis-moi », « ajoute une fonctionnalité », « code ça », même s'il ne parle pas d'agents. Ne l'utilise pas pour une simple question, une explication, ou une correction d'une ligne.
+description: Fait travailler une équipe d'agents spécialisés pour construire du logiciel de façon sûre et documentée. Claude joue le manager : il comprend la demande, pose les questions nécessaires, découpe le travail, puis délègue à un agent développeur, un agent cybersécurité (cherche toutes les failles possibles), un agent chasseur de bugs, un agent rédacteur de README, un agent Git/CI et un agent 3D Maker sous Blender. Utilise ce skill dès que l'utilisateur veut créer, développer, ajouter, refaire ou sécuriser une fonctionnalité, une application, un site, une API ou un script, ou créer des modèles, décors ou animations 3D avec Blender, ou dit des choses comme « lance l'équipe », « fais bosser les agents », « construis-moi », « ajoute une fonctionnalité », « code ça », même s'il ne parle pas d'agents. Ne l'utilise pas pour une simple question, une explication, ou une correction d'une ligne.
 ---
 
 # Équipe dev
@@ -18,6 +18,9 @@ Pourquoi : un seul agent qui code, teste, sécurise et documente d'un coup oubli
 | Chasseur de bugs | `agents/bugs.md` | Trouver les bugs qu'un vrai utilisateur rencontrerait |
 | Rédacteur README | `agents/readme.md` | Documenter ce qui marche, une fois à la fin |
 | Git | `agents/git.md` | Commits propres et CI/CD vérifiée à 100 %, une fois tout à la fin |
+| 3D Maker (Blender) | `agents/blender.md` | Créer modèles, scènes et animations 3D par scripts Blender, exportés en `.glb` |
+
+**Lots 3D.** Quand un lot demande des modèles 3D (objet, personnage, décor, animation, impression 3D, Blender), le 3D Maker remplace le développeur pour ce lot, avec `model: "opus"`. Pose avant une question sur l'usage (jeu, site, impression, image), le style et les formats. La relecture se limite au chasseur de bugs (`model: "sonnet"`), qui vérifie les exports réimportés, l'échelle, le budget de triangles et, si le code du projet charge le modèle, qu'il s'affiche vraiment. Pas d'agent sécurité sur un lot 3D, sauf si un script lit des fichiers venus de l'extérieur. Si le modèle doit ensuite être branché dans l'application, c'est un lot du développeur.
 
 Lis la fiche au moment de lancer l'agent et copie-la en tête de son prompt.
 

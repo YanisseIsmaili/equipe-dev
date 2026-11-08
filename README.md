@@ -11,6 +11,7 @@ Tu décris ce que tu veux construire. Claude devient **manager** : il pose quelq
 | Chasseur de bugs | cherche les cas limites et les régressions |
 | Rédacteur | met le README à jour une fois la fonctionnalité finie et sécurisée |
 | Git / CI | rejoue la CI en local, commit sur une branche, ne pousse qu'avec ton accord |
+| 3D Maker (Blender) | crée modèles, décors et animations 3D par scripts Blender, exportés en `.glb` |
 
 ## Économe en tokens
 
